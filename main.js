@@ -11,4 +11,4 @@ setInterval((0 => {
 },1000)
 
 //I alert for the page 
-setTimeout(function () { alert("You've been staringfor too long}
+setTimeout(function () { alert("You've been staringfor too long); }, 10000); //1000 is 1000 ms or a second
