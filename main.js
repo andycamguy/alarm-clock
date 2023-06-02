@@ -1,10 +1,14 @@
 
-function clock(){
-    var d = new Date(); //retrieves the live time
-    var s = d.getSeconds(); // sets the seconds
-    var m = d.getMinutes(); // sets the minute
-    var h = d.getHours(); //sets the hour
-    console.log(h + ":" + m + ":" + s);
-}
+// gets current time  from html
 
-setInterval(time,1000); // 1000 millisends equal 1 second. I honestly forgot about that but learned it from Arduino
+let time = document.getElementById('currentTime");
+
+// shows the current time on the page
+
+setInterval((0 => {
+    let d = new Date ();
+    time.innerHTML = d. toLocaleTimeString();
+},1000)
+
+//I alert for the page 
+setTimeout(function () { alert("You've been staringfor too long}
