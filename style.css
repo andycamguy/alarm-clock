@@ -1,9 +1,11 @@
 body{
   background-color: aqua;
 }
-div
+.center
 {
-  background-color: white
-  width: 200px
+  text-align: center;
 }
-
+.top-pad
+{
+  padding-top: 20%;
+}
