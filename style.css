@@ -1,11 +1,9 @@
 body{
-  background-color: aqua;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxtBDvDnpVdLVaJjw13YD2OHRyAFEAB2WyQhLhtuG5CVQbfEoi2k-Lmc7dk9wkB2ReoE&usqp=CAU");
 }
-.center
-{
+.center{
   text-align: center;
 }
-.top-pad
-{
-  padding-top: 30%;
+.top-pad {
+  padding-top: 10%;
 }
